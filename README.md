@@ -1,6 +1,6 @@
 # Basic Email Client
 
-
+A simple Java based Email Client containing basic mail operations.
 
 
 ## Code Organization
@@ -23,11 +23,10 @@ src/
 ## Running the Project
 
 ```
-$ git clone https://github.com/chandanand/travelling-tournament-problem.git
-$ R
-> setwd('project_directory/src')
-> source('main.R')
-> Main('data_file_name')
+$ git clone https://github.com/chandanand/email-client.git
+$ cd email-client
+$ mvn clean install
+$ java -jar target/email-client-1.0.jar
 ```
 
 ## Creators
